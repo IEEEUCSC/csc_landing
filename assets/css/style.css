@@ -370,6 +370,27 @@ i {
   font-weight: 400;
 }
 
+@media (max-width: 360px){
+	#timer div {
+    display: inline-block;
+    min-width:55px;
+  }
+  #timer{
+    font-size: 37px;
+  }
+  
+}
+
+@media (max-width: 480px){
+	#timer div {
+    display: inline-block;
+    min-width:60px;
+  }
+  #timer{
+    font-size: 40px;
+  }
+  
+}
 
 
 /* cards */
